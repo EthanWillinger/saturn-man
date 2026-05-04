@@ -1,0 +1,3 @@
+[submodule "joengine"]
+	path = joengine
+	url = https://github.com/johannes-fetz/joengine.git
