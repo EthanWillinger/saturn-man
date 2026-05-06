@@ -17,3 +17,10 @@ InputState input_get_state(void) {
 	}
 	return state;
 }
+
+bool input_is_direction_pressed() {
+	if (input_get_state().direction != DIRECTION_NONE) {
+		return true;
+	}
+	return false;
+}

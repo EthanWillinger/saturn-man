@@ -19,7 +19,7 @@ void game_loop(void) {
 void jo_main(void)
 {
 	jo_core_init(JO_COLOR_Blue);
-	player_start(&player, 0, 0, 1, 1);
+	player_start(&player, 0, 0, 1, 10);
 	jo_core_add_callback(game_loop);
 	jo_core_add_callback(my_draw);
 	jo_core_run();

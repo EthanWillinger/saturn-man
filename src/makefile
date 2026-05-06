@@ -14,6 +14,7 @@ JO_COMPILE_WITH_EFFECTS_MODULE = 0
 JO_COMPILE_WITH_RAM_CARD_MODULE = 0
 JO_DEBUG = 1
 
+JO_FRAMERATE = 60
 
 # ============ Source Files ============
 # List all your .c source files here (NOT .h files)
@@ -21,10 +22,10 @@ SRCS = main.c player.c input.c
 
 # ============ Paths ============
 # Points to Jo Engine location
-JO_ENGINE_SRC_DIR = ../joengine
+JO_ENGINE_SRC_DIR = ../../joengine/jo_engine
 
 # Points to compiler directory
-COMPILER_DIR = ../joengine/Compiler
+COMPILER_DIR = ../../joengine/Compiler
 
 # ============ Build ============
 # Include Jo Engine's master makefile

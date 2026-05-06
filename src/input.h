@@ -22,9 +22,9 @@ typedef struct {
     Direction direction;
 } InputState;
 
-InputState input_get_state(void);
+InputState input_get_state();
 
-int input_is_direction_pressed(Direction dir);
+bool input_is_direction_pressed();
 
 int input_is_button_pressed(unsigned int button_mask);
 
